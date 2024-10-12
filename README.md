@@ -22,9 +22,15 @@ git clone https://github.com/DaniloBez/PowerCalculator.git
 cd PowerCalculator
 ```
 
+### Крок 2: Перехід у папку проекту
+Перейдіть до папки проекту:
+```bash
+cd PowerCalculator
+```
+
 ### Крок 3: Запуск проекту
 Запустіть проект за допомогою .NET CLI:
 ```bash
-dotnet run
+dotnet run --project PowerCalculator/PowerCalculator.csproj
 ```
 
